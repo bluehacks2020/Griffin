@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/icon.png">
+    <title>Pinas | Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/map.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>     
+<body>
+<center><div id="loader-base" class="loader-base"><div class="loader"></div><img style="position: static; margin-top: -150px;" src="images/icon.png" width="75"><br><br>Loading Please Wait....</div></center>
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header" style="background-color: #fff !important">
+            <h3><img src="images/logo1.png" width="200"></h3>
+            <strong><img src="images/icon.png" height="40"></strong>
+        </div>
+        <center>
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="#homeSubmenu" class="active">
+                    <i class="fas fa-globe"></i>
+                    <span>Geo Informatics</span>
+                </a>
+            
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Statistical Summary</span>
+                </a>
+                <!-- <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <i class="fas fa-copy"></i>
+                    <span>Pages</span>
+                </a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-image"></i>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-question"></i>
+                    <span>FAQ</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+        </center>
+        <ul class="list-unstyled CTAs">
+            <li>
+                <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download App</a>
+            </li>
+            <li>
+                <a href="logout.php" class="article">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+<!-- Page Content  -->
+<div id="content">
+<nav class="navbar navbar-default" style="background: #ffb618; top: 0px !important">
+    <div class="container-fluid">
+        <div id="sidebarCollapse" style="cursor: pointer !important">
+            <h4 id="sidebarCollapse" class="fas fa-align-justify" style="color: #fff; margin-left: 5%;"></h4>
+        </div>
+    </div>
+</nav>
+ <div class="container-fluid">
+        <section class="tm-section tm-section-small" style="margin-left:100px;">
+          <div class = "container">
+            <div class="row">
+              <div class="col-sm-md-6" style="margin-top:0px;margin-left:-100px">
+                <img src="images\lunetaPark.jpg" style="height:250px;width:450px;"><br>
+                <img src="images\mayon.jpg" style="height:250px;width:450px;margin-top:50px">
+              </div>
+              <div class="col-sm-md-6" style="margin-top:0px;">
+                <div class="container">
+                  <i class="fas fa-coins" style="width: 100px;height: 100px; margin-left:250px;"></i><br>
+                  <h1 style="font-family:MyriadPro;margin-left:180px;margin-top:20px"><b>Peso for a Cause</b></h1>
+                </div>  
+
+                <div class="input-group has-color" style="padding-bottom: 2%; width: 100px;">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <select class="form-control" name="gender" placeholder="Gender" style="font-size: 12px;margin-left:200px;min-width:250px;margin-top:-20px">
+                      <option selected hidden="">Cultural Heritage to be Rennovated</option>
+                      <option>Corregidor</option>
+                      <option>Cagsawa Ruins</option>
+                      <option>Song-Song Ruins</option>
+                      <option>Old Guiob Church Ruins</option>
+                      <option>Old Taal Church</option>
+                      <option>The Ruins</option>
+                  </select>
+                </div>
+
+                <div class="input-group has-color" style="padding-bottom: 2%; width: 100px;">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                  <select class="form-control" name="gender" placeholder="Gender" style="font-size: 12px;margin-left:200px;min-width:250px;margin-top:-20px">
+                      <option selected hidden="">Method of Payment</option>
+                      <option>Paymaya</option>
+                      <option>Paypal</option>
+                      <option>GCash</option>
+                      <option>Debit Card</option>
+                      <option>Credit Card</option>
+                  </select>
+                </div>
+                <img src="images\chocoHillz.jpg" style="height:250px;width:450px;margin-top:17px;margin-left:100px">
+              </div><br>
+            </div>
+          </div> 
+        </section> 
+    </div>
+
+
+
+
+
+</div> <!-- CONTENT -->
+<center><div id="loader-base" class="loader-base"><div class="loader"></div><img style="position: static; margin-top: -500px;" src="images/icon.png" width="75"><br><br>Loading Please Wait....</div></center>
+
+</div> <!-- WRAPPER -->
+
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
+    $("#loader-base").addClass("hide");
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/icon.png">
+    <title>Pinas | Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/map.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>     
+<body>
+<center><div id="loader-base" class="loader-base"><div class="loader"></div><img style="position: static; margin-top: -150px;" src="images/icon.png" width="75"><br><br>Loading Please Wait....</div></center>
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header" style="background-color: #fff !important">
+            <h3><img src="images/logo1.png" width="200"></h3>
+            <strong><img src="images/icon.png" height="40"></strong>
+        </div>
+        <center>
+        <ul class="list-unstyled components">
+            <li class="active">
+                <a href="#homeSubmenu" class="active">
+                    <i class="fas fa-globe"></i>
+                    <span>Geo Informatics</span>
+                </a>
+            
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-pie"></i>
+                    <span>Statistical Summary</span>
+                </a>
+                <!-- <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                    <i class="fas fa-copy"></i>
+                    <span>Pages</span>
+                </a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul> -->
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-image"></i>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-question"></i>
+                    <span>FAQ</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-paper-plane"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+        </center>
+        <ul class="list-unstyled CTAs">
+            <li>
+                <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download App</a>
+            </li>
+            <li>
+                <a href="logout.php" class="article">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+<!-- Page Content  -->
+<div id="content">
+<nav class="navbar navbar-default" style="background: #ffb618; top: 0px !important">
+    <div class="container-fluid">
+        <div id="sidebarCollapse" style="cursor: pointer !important">
+            <h4 id="sidebarCollapse" class="fas fa-align-justify" style="color: #fff; margin-left: 5%;"></h4>
+        </div>
+    </div>
+</nav>
+ <div class = "container">
+            <div class="row">
+                <div class="col-sm-8" style="margin-left:-100px;margin-top:30px;">
+                  <h3 class="tm-section-header">F2M Tower, Legazpi City</h3><h7>Excellent (3.53)</h7>
+                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                      <li data-target="#demo" data-slide-to="0" class="active"></li>
+                      <li data-target="#demo" data-slide-to="1"></li>
+                      <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images\room1.jpg" style="height:500px;width:700px;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images\room2.jpg" style="height:500px;width:700px;">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images\room3.jpg" style="height:500px;width:700px;">
+                      </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+                <h3 style="margin-top:40px;">Trip Amenities</h3>
+                <p><h7>Free Transportation(Flight/Ground) &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Free Spa Treatment</h7></p>
+                <p><h7> </h7></p>
+                <p><h7>Free Wifi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Free Netflix</h7></p>
+                <p><h7>Free Pool Usage &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Elevator </h7></p>
+                <p><h7>Ticket Assistance &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Café  </h7></p>
+                <p><h7>Free Wifi &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Refrigerator</h7></p>
+
+                <h3 style="margin-top:40px;">Internet</h3>
+                <p><h7>Available in All Rooms : Free WiFi</h7></p>
+                <p><h7>Available in Somne Public Areas : Free WiFi</h7></p>
+
+                <h3 style="margin-top:40px;">Parking</h3>
+                <p><h7>Free Self Parking (Limited Spaces)</h7></p>
+
+              </div>
+
+              <div class="col-sm-4" style="margin-top:40px;">
+                <h3>Lodge Amenities</h3>
+                <p><h7>Free Breakfast, Lunch and Dinner</h7></p>
+                <p><h7>Free Parking</h7></p>
+                <p><h7>Free Wifi</h7></p>
+                <p><h7>Free Netflix</h7></p>
+                <p><h7>Free Pool Usage</h7></p>
+
+                <h3>Location</h3>
+                <p><h7>Located in the heart of Legazpi,</h7></p>
+                <p><h7>this hotel is within a 15-minute</h7></p>
+                <p><h7>walk of Embarcadero and Kapuntukan</h7></p>
+                <p><h7>Hill. SM City Legazpi and Liberty</h7></p>
+                <p><h7>Bell are also within 2 mi (3 km).</h7></p>
+
+                <h3>Hotel Policies</h3>
+                <p><h7>Check-in time starts at 2 PM</h7></p>
+                <p><h7>Check-in time ends in Midnight</h7></p>
+                <p><h7>Minimum Check-In Age is 18 yrs old</h7></p>
+                <p></p>
+                <p><h7>This property doesn't offer after-hours check-in. Guests arriving late won't be able to check in until the next morning. Bell are also within 2 mi (3 km). </h7></p>
+                <p><h7>Check-out time is noon</h7></p>
+
+                <h3>Nearby Things to Do</h3>
+                <p><h7>Recreational amenities at the hotel include an outdoor pool. </h7></p>
+                <p><h7>Ecotours</h7></p>
+                <p><h7>walk of Embarcadero and Kapuntukan</h7></p>
+                <p><h7>Hill. SM City Legazpi and Liberty</h7></p>
+                <p><h7>Bell are also within 2 mi (3 km).</h7></p> 
+              </div>  
+            </div>
+            <div class="row">
+              <div class="col-sm-6" style="margin-top:40px;">
+                <a class="btn" role="button" style="background-color:#ffc340;height:100px;width:400px;margin-bottom:40px;margin-left:-10px">
+                  <div class="row">
+                    <div class="col-sm-6" style="margin-top:5px;">
+                      <img src="images\philAir.png" class="img-fluid" alt="Responsive image" style="width:200px;height:50px;margin-top:10px;margin-left:0px">
+                    </div>
+                    <div class="col-sm-6" style="margin-top:20px;">
+                      <h7>6:00 PM - 7:00 PM</h7><br>
+                      <h7>February 02, 2020</h7>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-sm-6" style="margin-top:40px;">
+                <a class="btn" role="button" style="background-color:#ffc340;height:100px;width:400px;margin-bottom:40px;margin-left:-50px">   
+                  <div class="row">
+                    <div class="col-sm-6" style="margin-top:5px;">
+                      <img src="images\cebuPaci.png" class="img-fluid" alt="Responsive image" style="width:200px;height:50px;margin-top:10px;margin-left:0px">
+                    </div>
+                    <div class="col-sm-6" style="margin-top:20px;">
+                      <h7>00:00 AM - 1:00 AM</h7><br>
+                      <h7>February 02, 2020</h7>
+                    </div>
+                  </div>
+                </a>
+              </div>
+          </div>
+          </div>  
+      </div>
+
+
+
+
+</div> <!-- CONTENT -->
+<center><div id="loader-base" class="loader-base"><div class="loader"></div><img style="position: static; margin-top: -500px;" src="images/icon.png" width="75"><br><br>Loading Please Wait....</div></center>
+
+</div> <!-- WRAPPER -->
+
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+$(document).ready(function () {
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
+    });
+    $("#loader-base").addClass("hide");
+
+});
+</script>
+</body>
+</html>
